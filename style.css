@@ -68,14 +68,11 @@ body {
   user-select: none;
 }
 
-.closebtn {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: flex-end;
-  padding-right: 1em;
-}
-
 .closebtn img {
   width: 20px;
+}
+
+.closebtn {
+  align-self: flex-end;
+  padding-right: 1em;
 }
